@@ -24,6 +24,7 @@ export default function Test() {
   return (
     <div>
       <DataGrid rows={rows} columns={columns} getRowId={row => row.co_id} />
+      <DataGrid rows={rows} columns={columns} getRowId={row => row.co_id} />
     </div>
   )
 }
